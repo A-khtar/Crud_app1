@@ -1,0 +1,42 @@
+input[type = "text"],
+input[type = "email"],
+input[type = "number"],
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #02086a;
+    color: white;
+
+}
+input[type ="button"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #40453e;
+    color: white;
+}
+input[type= "submit"]:hover {
+    background-color: #02086a;
+}
+
